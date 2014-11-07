@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module"
+        version="2.5"
+        client="administrator"
+        method="upgrade"
+        >
+    <name>mod_puntos_stats</name>
+    <author>edugeo.com</author>
+    <creationDate>2013-08-26</creationDate>
+    <copyright>Copyright (C) 2012 Daniel Dimitrov - edugeo.com. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <authorEmail>daniel@edugeo.com</authorEmail>
+    <authorUrl>edugeo.com</authorUrl>
+    <version>3.5.4</version>
+    <description>MOD_puntos_STATS_XML_DESCRIPTION</description>
+    <files>
+        <file>helper.php</file>
+<file module="mod_puntos_stats">mod_puntos_stats.php</file>
+<folder>tmpl</folder>
+    </files>
+    <languages folder="administrator/language">
+
+<language tag="es-ES">es-ES/es-ES.mod_puntos_stats.ini</language>
+<language tag="es-ES">es-ES/es-ES.mod_puntos_stats.sys.ini</language>
+
+    </languages>
+    <config>
+
+    </config>
+</extension>

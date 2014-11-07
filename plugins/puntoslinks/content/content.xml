@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="puntoslinks" method="upgrade">
+	<name>plg_puntoslinks_content</name>
+	<author>EduGeo.com</author>
+	<creationDate>2014-10-26</creationDate>
+	<copyright>Copyright (C) 2014. All rights reserved.</copyright>
+    <license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+	<authorEmail>javier@edugeo.com</authorEmail>
+	<authorUrl>https://edugeo.com</authorUrl>
+	<version>0.0.1</version>
+	<description>
+        plg_puntoslinks_content_DESC
+	</description>
+    <languages folder="administrator/language">
+        <language tag="bg-BG">bg-BG/bg-BG.plg_puntoslinks_content.sys.ini</language>
+
+<language tag="es-ES">es-ES/es-ES.plg_puntoslinks_content.sys.ini</language>
+
+    </languages>
+    <files>
+        <file plugin="content">content.php</file>
+    </files>
+</extension>

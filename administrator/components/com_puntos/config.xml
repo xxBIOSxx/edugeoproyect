@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+	<fieldset name="basic" label="COM_HOTSPOTS_BASIC">
+		<field name="show_welcome_text" label="COM_HOTSPOTS_SHOW_WELCOME_TEXT"
+		       description="COM_HOTSPOTS_SHOW_WELCOME_TEXT_DESC"
+		       class="btn-group" type="radio" default="1">
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+		<field name="welcome_text" type="editor" buttons="false"
+		       filter="raw" default="Bienvenido a Puntos de Acceso!&lt;br /&gt;El mejor sistema geo-referencial que te muestra todo sobre nuestros colegios&lt;br /&gt;Usted puede tener acceso a nuestro sistema libremente &amp; todo el soporte en EDUGEO.com.&lt;br /&gt;"
+		       label="COM_HOTSPOTS_WELCOME_TEXT" description="COM_HOTSPOTS_WELCOME_TEXT_DESC"/>
+		<field type="text" name="map_height" default="600" label="COM_HOTSPOTS_MAP_HEIGHT"
+		       description="COM_HOTSPOTS_MAP_HEIGHT_DESC"/>
+
+		<field name="addhs_autopublish" label="COM_HOTSPOTS_ADDHS_AUTOPUBLISH"
+		       description="COM_HOTSPOTS_ADDHS_AUTOPUBLISH_DESC"
+		       class="btn-group" type="radio" default="1">
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+		<field name="rss_enable" label="COM_HOTSPOTS_RSS_ENABLE"
+		       description="COM_HOTSPOTS_RSS_ENABLE_DESC"
+		       class="btn-group" type="radio" default="1">
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+		<field name="print_map" label="COM_HOTSPOTS_PRINT_MAP"
+		       description="COM_HOTSPOTS_PRINT_MAP_DESC"
+		       class="btn-group" type="radio" default="1">
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+		<field name="category_info" label="COM_HOTSPOTS_CATEGORY_INFO"
+		       description="COM_HOTSPOTS_CATEGORY_INFO_DESC"
+		       class="btn-group" type="radio" default="1">
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+		<field name="mail_map" label="COM_HOTSPOTS_MAIL_MAP"
+		       description="COM_HOTSPOTS_MAIL_MAP_DESC"
+		       class="btn-group" type="radio" default="1">
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+		<field name="addhs_autopublish" label="COM_HOTSPOTS_ADDHS_AUTOPUBLISH"
+		       description="COM_HOTSPOTS_ADDHS_AUTOPUBLISH_DESC"
+		       class="btn-group" type="radio" default="1">
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+	</fieldset>
+	<fieldset name="layout" label="COM_HOTSPOTS_LAYOUT" description="COM_HOTSPOTS_FIELDSET_LAYOUT_DESC">
+		<field name="marker_list_length" type="list" default="20" label="COM_HOTSPOTS_CONFIG_MAP_MARKER_LIST_LENGTH"
+		       description="COM_HOTSPOTS_CONFIG_MAP_MARKER_LIST_LENGTH_DESC">
+			<option value="10">10</option>
+			<option value="20">20</option>
+			<option value="50">50</option>
+			<option value="100">100</option>
+		</field>
+		<field name="show_address" label="COM_HOTSPOTS_SHOW_ADDRESS"
+		       description="COM_HOTSPOTS_SHOW_ADDRESS_DESC"
+		       class="btn-group" type="radio" default="1">
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+		<field name="show_zoom_button" label="COM_HOTSPOTS_SHOW_ZOOM_BUTTON_LABEL"
+		       description="COM_HOTSPOTS_SHOW_ZOOM_BUTTON_DESC"
+		       class="btn-group" type="radio" default="1">
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+		<field name="show_author" label="COM_HOTSPOTS_SHOW_AUTHOR"
+		       description="COM_HOTSPOTS_SHOW_AUTHOR_DESC"
+		       class="btn-group" type="radio" default="1">
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+		<field name="show_address_country" label="COM_HOTSPOTS_SHOW_ADDRESS_COUNTRY"
+		       description="COM_HOTSPOTS_SHOW_ADDRESS_COUNTRY_DESC"
+		       class="btn-group" type="radio" default="1">
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+		<field name="show_date" label="COM_HOTSPOTS_SHOW_DATE"
+		       description="COM_HOTSPOTS_SHOW_DATE_DESC"
+		       class="btn-group" type="radio" default="1">
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+		<field name="date_format" label="COM_HOTSPOTS_DATE_FORMAT"
+		       description="COM_HOTSPOTS_DATE_FORMAT_DESC"
+		       class="btn-group" type="text" default="d-m-Y"/>
+		<field name="hotspot_detailpage" label="COM_HOTSPOTS_HOTSPOT_DETAILPAGE"
+		       description="COM_HOTSPOTS_HOTSPOT_DETAILPAGE_DESC"
+		       class="btn-group" type="radio" default="1">
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+		<field name="show_marker_count" label="COM_HOTSPOTS_SHOW_MARKER_COUNT"
+		       description="COM_HOTSPOTS_SHOW_MARKER_COUNT_DESC"
+		       class="btn-group" type="radio" default="1">
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+		<field name="number_of_cats_to_show" label="COM_HOTSPOTS_NUMBER_OF_CATS_TO_SHOW"
+		       description="COM_HOTSPOTS_NUMBER_OF_CATS_TO_SHOW_DESC"
+		       class="btn-group" type="text" default="5"/>
+		<field name="category_ordering" label="COM_HOTSPOTS_CATEGORY_ORDERING"
+		       description="COM_HOTSPOTS_CATEGORY_ORDERING_DESC"
+		       type="list" default="id ASC">
+			<option value="id ASC">Id</option>
+			<option value="id DESC">Id desc</option>
+			<option value="cat_name ASC">Category name</option>
+			<option value="cat_name DESC">Category name (desc)</option>
+			<option value="cat_date ASC">Date</option>
+			<option value="cat_date DESC">Date (desc)</option>
+		</field>
+		<field name="hotspots_order" label="COM_HOTSPOTS_HOTSPOTS_ORDER"
+		       description="COM_HOTSPOTS_HOTSPOTS_ORDER_DESC"
+		       type="list" default="name ASC">
+			<option value="name ASC">Hotspots name</option>
+			<option value="name DESC">Hotspots name(desc)</option>
+			<option value="created ASC">Date</option>
+			<option value="created DESC">Date (desc)</option>
+		</field>
+		<field name="resize_map" label="COM_HOTSPOTS_RESIZE_MAP"
+		       description="COM_HOTSPOTS_RESIZE_MAP_DESC"
+		       class="btn-group" type="radio" default="1">
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+		<field name="footer" label="COM_HOTSPOTS_FOOTER"
+		       description="COM_HOTSPOTS_FOOTER_DESC"
+		       class="btn-group" type="radio" default="1">
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+		<field name="user_interface" label="COM_HOTSPOTS_USER_INTERFACE"
+		       description="COM_HOTSPOTS_USER_INTERFACE_DESC"
+		       class="btn-group" type="list" default="1">
+			<option value="0">Europe</option>
+			<option value="1">US</option>
+		</field>
+		<field name="profile_link" label="COM_HOTSPOTS_PROFILE_LINK_LABEL"
+		       description="COM_HOTSPOTS_PROFILE_LINK_DESC"
+		       class="chzn-done" type="list" default="" labelclass="">
+			<option value="">COM_HOTSPOTS_NONE</option>
+			<option value="CB" disabled="false">CB</option>
+			<option value="jomsocial" disabled="false">Jomsocial</option>
+		</field>
+	</fieldset>
+	<fieldset name="advanced" label="COM_HOTSPOTS_ADVANCED">
+		<field name="addhs_picture" label="COM_HOTSPOTS_ADDHS_PICTURE"
+		       description="COM_HOTSPOTS_ADDHS_PICTURE_DESC"
+		       type="list" default="1">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+			<option value="2">Only registered</option>
+		</field>
+		<field type="text" name="rss_limit" default="50" label="COM_HOTSPOTS_RSS_LIMIT"
+		       description="COM_HOTSPOTS_RSS_LIMIT_DESC"/>
+		<field name="rss_type" label="COM_HOTSPOTS_RSS_TYPE"
+		       description="COM_HOTSPOTS_RSS_TYPE_DESC"
+		       type="list" default="0">
+			<option value="0">RSS 2.0</option>
+			<option value="1">RSS 1.0</option>
+			<option value="3">Atom</option>
+		</field>
+		<field type="text" name="picturethumb_width" default="80" label="COM_HOTSPOTS_PICTURETHUMB_WIDTH"
+		       description="COM_HOTSPOTS_PICTURETHUMB_WIDTH_DESC"/>
+		<field type="text" name="picturethumb_height" default="80" label="COM_HOTSPOTS_PICTURETHUMB_HEIGHT"
+		       description="COM_HOTSPOTS_PICTURETHUMB_HEIGHT_DESC"/>
+		<field type="text" name="map_static_width" default="500" label="COM_HOTSPOTS_MAP_STATIC_WIDTH"
+		       description="COM_HOTSPOTS_MAP_STATIC_WIDTH_DESC"/>
+		<field type="text" name="map_static_height" default="300" label="COM_HOTSPOTS_MAP_STATIC_HEIGHT"
+		       description="COM_HOTSPOTS_MAP_STATIC_HEIGHT_DESC"/>
+		<field name="josc_support" label="COM_HOTSPOTS_JOSC_SUPPORT"
+		       description="COM_HOTSPOTS_JOSC_SUPPORT_DESC"
+		       class="btn-group" type="radio" default="0">
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+		<field name="marker_allow_plugin" label="COM_HOTSPOTS_MARKER_ALLOW_PLUGIN"
+		       description="COM_HOTSPOTS_MARKER_ALLOW_PLUGIN_DESC"
+		       class="btn-group" type="radio" default="0">
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+		<field name="complete_uninstall" label="COM_HOTSPOTS_COMPLETE_UNINSTALL"
+		       description="COM_HOTSPOTS_COMPLETE_UNINSTALL_DESC"
+		       class="btn-group" type="radio" default="0">
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+	</fieldset>
+	<fieldset name="map" label="COM_HOTSPOTS_CONFIG_MAP" description="COM_HOTSPOTS_CONFIG_MAP_DESC">
+		<field name="api_key" type="text" default="" label="COM_HOTSPOTS_API_KEY_LABEL"
+		       description="COM_HOTSPOTS_API_KEY_DESC" />
+		<field type="text" name="map_startposition" default="Karlsruhe, Germany"
+		       label="COM_HOTSPOTS_MAP_STARTPOSITION"
+		       description="COM_HOTSPOTS_MAP_STARTPOSITION_DESC"/>
+		<field type="text" name="map_startzoom" default="10"
+		       label="COM_HOTSPOTS_MAP_STARTZOOM"
+		       description="COM_HOTSPOTS_MAP_STARTZOOM_DESC"/>
+		<field name="map_type" label="COM_HOTSPOTS_MAP_TYPE" description="COM_HOTSPOTS_MAP_TYPE_DESC"
+		       type="list" default="0">
+			<option value="1">COM_HOTSPOTS_MAP_TYPE_MAP</option>
+			<option value="2">COM_HOTSPOTS_MAP_TYPE_MAP_SATELLITE</option>
+			<option value="3">COM_HOTSPOTS_MAP_TYPE_MAP_HYBRID</option>
+			<option value="4">COM_HOTSPOTS_MAP_TYPE_MAP_PHYSICAL</option>
+		</field>
+		<field name="gm_control" label="COM_HOTSPOTS_GM_CONTROL"
+		       description="COM_HOTSPOTS_GM_CONTROL_DESC"
+		       type="list" default="1">
+			<option value="1">COM_HOTSPOTS_GM_CONTROL_BIG_CONTROLS</option>
+			<option value="2">COM_HOTSPOTS_GM_CONTROL_SMALL_CONTROLS</option>
+		</field>
+		<field name="gm_control_pos" label="COM_HOTSPOTS_GM_CONTROL_POS"
+		       description="COM_HOTSPOTS_GM_CONTROL_POS_DESC"
+		       type="list" default="topLeft">
+			<option value="topLeft">top left</option>
+			<option value="topRight">top right</option>
+			<option value="bottomLeft">bottom left</option>
+			<option value="bottomRight">bottom right</option>
+		</field>
+		<field name="panControl" type="radio" default="1" label="COM_HOTSPOTS_PAN_CONTROL_LABEL"
+		       description="COM_HOTSPOTS_PAN_CONTROL_DESC" class="btn-group "
+		       labelclass="">
+			<option value="0" disabled="false">JNO</option>
+			<option value="1" disabled="false">JYES</option>
+		</field>
+		<field name="zoomControl" type="radio" default="1" label="COM_HOTSPOTS_ZOOM_CONTROL_LABEL"
+		       description="COM_HOTSPOTS_ZOOM_CONTROL_DESC" class="btn-group "
+		       labelclass="">
+			<option value="0" disabled="false">JNO</option>
+			<option value="1" disabled="false">JYES</option>
+		</field>
+		<field name="mapTypeControl" type="radio" default="1" label="COM_HOTSPOTS_MAP_TYPE_CONTROL_LABEL"
+		       description="COM_HOTSPOTS_MAP_TYPE_CONTROL_DESC" class="btn-group "
+		       labelclass="">
+			<option value="0" disabled="false">JNO</option>
+			<option value="1" disabled="false">JYES</option>
+		</field>
+		<field name="scaleControl" type="radio" default="1" label="COM_HOTSPOTS_SCALE_CONTROL_LABEL"
+		       description="COM_HOTSPOTS_SCALE_CONTROL_DESC" class="btn-group "
+		       labelclass="">
+			<option value="0" disabled="false">JNO</option>
+			<option value="1" disabled="false">JYES</option>
+		</field>
+		<field name="streetViewControl" type="radio" default="1" label="COM_HOTSPOTS_STREET_VIEW_CONTROL_LABEL"
+		       description="COM_HOTSPOTS_STREET_VIEW_CONTROL_DESC" class="btn-group "
+		       labelclass="">
+			<option value="0" disabled="false">JNO</option>
+			<option value="1" disabled="false">JYES</option>
+		</field>
+		<field name="overviewMapControl" type="radio" default="1" label="COM_HOTSPOTS_OVERVIEW_MAP_CONTROL_LABEL"
+		       description="COM_HOTSPOTS_OVERVIEW_MAP_CONTROL_DESC" class="btn-group "
+		       labelclass="">
+			<option value="0" disabled="false">JNO</option>
+			<option value="1" disabled="false">JYES</option>
+		</field>
+		<field name="scrollwheel" type="radio" default="1" label="COM_HOTSPOTS_SCROLLWHEEL_LABEL"
+		       description="COM_HOTSPOTS_SCROLLWHEEL_DESC" class="btn-group "
+		       labelclass="">
+			<option value="0" disabled="false">JNO</option>
+			<option value="1" disabled="false">JYES</option>
+		</field>
+		<field name="visual_refresh" type="radio" default="1" label="COM_HOTSPOTS_VISUAL_REFRESH_LABEL"
+		       description="COM_HOTSPOTS_VISUAL_REFRESH_DESC" class="btn-group">
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+		<field name="custom_tiles" type="radio" default="0" label="COM_HOTSPOTS_CONFIG_MAP_CUSTOM_TILES"
+		       description="COM_HOTSPOTS_CONFIG_MAP_CUSTOM_TILES_DESC" class="btn-group "
+		       labelclass="">
+			<option value="0" disabled="false">JNO</option>
+			<option value="1" disabled="false">JYES</option>
+		</field>
+
+		<field name="styled_maps" type="textarea" label="COM_HOTSPOTS_STYLED_MAPS"
+		       description="COM_HOTSPOTS_STYLED_MAPS_DESC" filter="raw" rows="5"  disabled="false"
+		       labelclass=""/>
+
+		<field name="weather_api" type="radio" default="0" label="COM_HOTSPOTS_WEATHER_API_LABEL"
+		       description="COM_HOTSPOTS_WEATHER_API_DESC" class="btn-group "
+		       labelclass="">
+			<option value="0" disabled="false">JNO</option>
+			<option value="1" disabled="false">JYES</option>
+		</field>
+		<field name="weather_api_data_clickable" type="radio" default="1" label="COM_HOTSPOTS_WEATHER_API_DATA_CLICKABLE_LABEL"
+		       description="COM_HOTSPOTS_WEATHER_API_DATA_CLICKABLE_DESC" class="btn-group  "
+		       labelclass="">
+			<option value="0" disabled="false">JNO</option>
+			<option value="1" disabled="false">JYES</option>
+		</field>
+
+		<field name="weather_api_temperature_unit" label="COM_HOTSPOTS_WEATHER_TEMPERATURE_UNIT_LABEL"
+		       description="COM_HOTSPOTS_WEATHER_TEMPERATURE_UNIT_DESC" type="list" default="0" class=""
+		       labelclass="">
+			<option value="CELSIUS" disabled="false">COM_HOTSPOTS_CELSIUS</option>
+			<option value="FAHRENHEIT" disabled="false">COM_HOTSPOTS_FAHRENHEIT</option>
+		</field>
+		<field name="weather_api_wind_speed_unit" label="COM_HOTSPOTS_WEATHER_WIND_SPEED_UNIT_LABEL" description="" type="list"
+		       default="0" class=""  labelclass="">
+			<option value="KILOMETERS_PER_HOUR" disabled="false">COM_HOTSPOTS_KILOMETERS_PER_HOUR</option>
+			<option value="METERS_PER_SECOND" disabled="false">COM_HOTSPOTS_METERS_PER_SECOND</option>
+			<option value="MILES_PER_HOUR" disabled="false">COM_HOTSPOTS_MILES_PER_HOUR</option>
+		</field>
+
+		<field name="clouds_layer" type="radio" class="btn-group "  default="0"
+		       label="COM_HOTSPOTS_CLOUDS_LAYER_LABEL" description="COM_HOTSPOTS_CLOUDS_LAYER_DESC"
+		       labelclass="">
+			<option value="0" disabled="false">JNO</option>
+			<option value="1" disabled="false">JYES</option>
+		</field>
+
+		<field name="traffic_layer" type="radio" class="btn-group "  default="0"
+		       label="COM_HOTSPOTS_TRAFFIC_LAYER_LABEL" description="COM_HOTSPOTS_TRAFFIC_LAYER_DESC"  labelclass="">
+			<option value="0" disabled="false">JNO</option>
+			<option value="1" disabled="false">JYES</option>
+		</field>
+
+		<field name="transit_layer" type="radio" class="btn-group "  default="0"
+		       label="COM_HOTSPOTS_TRANSIT_LAYER_LABEL" description="COM_HOTSPOTS_TRANSIT_LAYER_DESC"  labelclass="">
+			<option value="0" disabled="false">JNO</option>
+			<option value="1" disabled="false">JYES</option>
+		</field>
+
+		<field name="bicycling_layer" type="radio" class="btn-group "  default="0"
+		       label="COM_HOTSPOTS_BICYCLING_LAYER_LABEL" description="COM_HOTSPOTS_BICYCLING_LAYER_DESC"
+		       labelclass="">
+			<option value="0" disabled="false">JNO</option>
+			<option value="1" disabled="false">JYES</option>
+		</field>
+
+		<field name="panoramio_layer" type="radio" class="btn-group "  default="0"
+		       label="COM_HOTSPOTS_PANORAMIO_LAYER_LABEL" description="COM_HOTSPOTS_PANORAMIO_LAYER_DESC"
+		       labelclass="">
+			<option value="0" disabled="false">JNO</option>
+			<option value="1" disabled="false">JYES</option>
+		</field>
+		<field type="text" name="panoramio_user_id" default="" label="COM_HOTSPOTS_PANORAMIO_USER_ID_LAYER_LABEL"
+		       description="COM_HOTSPOTS_PANORAMIO_USER_ID_LAYER_DESC" disabled="false"
+		       labelclass="" />
+		<field name="draggable_directions" type="radio" class="btn-group "  default="1"
+		       label="COM_HOTSPOTS_DRAGGABLE_DIRECTIONS_LABEL"
+		       description="COM_HOTSPOTS_DRAGGABLE_DIRECTIONS_DESC"
+		       labelclass="">
+			<option value="0" disabled="false">JNO</option>
+			<option value="1" disabled="false">JYES</option>
+		</field>
+	</fieldset>
+
+	<fieldset name="security"
+	          description="COM_HOTSPOTS_CONFIG_SECURITY_DESC"
+	          label="COM_HOTSPOTS_CONFIG_SECURITY">
+		<field name="captcha" label="COM_HOTSPOTS_CAPTCHA"
+		       description="COM_HOTSPOTS_CAPTCHA_DESC"
+		       class="btn-group " labelClass="" type="radio" default="0"
+		       labelclass="">
+			<option value="0" disabled="false">JNO</option>
+			<option value="1" disabled="false">JYES</option>
+		</field>
+		<field name="captcha_usergroup" type="usergroup"
+		       label="COM_HOTSPOTS_CAPTCHA_USERGROUP"
+		       description="COM_HOTSPOTS_CAPTCHA_USERGROUP_DESC"
+		       multiple="true" disabled="false"
+		       labelclass=""
+				/>
+		<field type="text" name="recaptcha_public_key" default="" label="COM_HOTSPOTS_RECAPTCHA_PUBLIC_KEY"
+		       description="COM_HOTSPOTS_RECAPTCHA_PUBLIC_KEY_DESC"  disabled="false"
+		       labelclass="" />
+		<field type="text" name="recaptcha_private_key" default="" label="COM_HOTSPOTS_RECAPTCHA_PRIVATE_KEY"
+		       description="COM_HOTSPOTS_RECAPTCHA_PRIVATE_KEY_DESC"  disabled="false"
+		       labelclass=""/>
+
+	</fieldset>
+
+	<fieldset name="backend" label="COM_HOTSPOTS_CONFIG_BACKEND_HEADER_LABEL"
+	          description="COM_HOTSPOTS_CONFIG_LIVE_UPFATE_HEADER_DESC">
+		<field name="downloadid" type="text" default="" size="30" label="COM_HOTSPOTS_CONFIG_LIVE_UPDATE_DOWNLOAD_ID"
+		       description="COM_HOTSPOTS_CONFIG_LIVE_UPDATE_DOWNLOAD_ID_DESC"/>
+	</fieldset>
+
+	<fieldset name="permissions"
+	          description="JCONFIG_PERMISSIONS_DESC"
+	          label="JCONFIG_PERMISSIONS_LABEL"
+			>
+
+		<field name="rules" type="rules"
+		       component="com_hotspots"
+		       filter="rules"
+		       validate="rules"
+		       label="JCONFIG_PERMISSIONS_LABEL"
+		       section="component"/>
+	</fieldset>
+</config>

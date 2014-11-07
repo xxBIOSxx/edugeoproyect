@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module"
+        version="2.5"
+        client="administrator"
+        method="upgrade"
+        >
+    <name>mod_puntos</name>
+    <author>edugeo.com</author>
+    <creationDate>2014-11-26</creationDate>
+    <copyright>Copyright (C) 2012 Javier Sandoval - edugeo.com. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <authorEmail>daniel@edugeo.com</authorEmail>
+    <authorUrl>edugeo.com</authorUrl>
+    <version>3.5.4</version>
+    <description>MOD_PUNTOS_XML_DESCRIPTION</description>
+    <files>
+        <file>helper.php</file>
+<folder>media</folder>
+<file module="mod_puntos">mod_puntos.php</file>
+<folder>tmpl</folder>
+    </files>
+    <languages folder="administrator/language">
+
+<language tag="es-ES">es-ES/es-ES.mod_puntos.ini</language>
+<language tag="es-ES">es-ES/es-ES.mod_puntos.sys.ini</language>
+
+    </languages>
+    <media destination="mod_puntos" folder="media/mod_puntos">
+        <folder>css</folder>
+<folder>js</folder>
+    </media>
+    <config>
+
+    </config>
+</extension>

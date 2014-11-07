@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset>
+		<field name="id" type="text" default="0" label="JGLOBAL_FIELD_ID_LABEL"
+		       readonly="true" class="readonly"
+		       description="JGLOBAL_FIELD_ID_DESC"/>
+
+
+		<field name="cat_name" type="text" class="inputbox"
+		       size="40" label="COM_PUNTOS_CATEGORY_NAME" required="true"/>
+
+
+		<field name="published"
+		       type="list"
+		       label="COM_PUNTOS_PUBLISHED"
+		       class="inputbox"
+		       size="1"
+		       default="1">
+			<option
+					value="1">JPUBLISHED
+			</option>
+			<option
+					value="0">JUNPUBLISHED
+			</option>
+		</field>
+
+		<field name="cat_description" type="editor" class="inputbox"
+		       label="COM_PUNTOS_CATEGORY_DESCRIPTION" width="80%"
+		       filter="JComponentHelper::filterText" buttons="false" />
+
+		<field name="picture" type="file"
+		       size="40" label="COM_PUNTOS_CAT_IMAGE"/>
+
+		<field name="cat_icon" type="categorymarkericon"
+		       size="40" label="COM_PUNTOS_ICON" required="true"/>
+
+		<field name="cat_date" type="calendar"
+		       label="JGLOBAL_FIELD_CREATED_LABEL" description="JGLOBAL_FIELD_CREATED_DESC"
+		       class="inputbox" size="22" format="%Y-%m-%d %H:%M:%S"
+		       filter="user_utc"/>
+
+		<fields name="params">
+			<fieldset name="jbasic" label="COM_PUNTOS_MARKER_FIELDSET_OPTIONS">
+				<field
+						name="tile_marker_color"
+						type="puntoscolor"
+						label="COM_PUNTOS_CUSTOM_TILE_MARKER_COLOR"
+						description="COM_PUNTOS_CUSTOM_TILE_MARKER_COLOR_DESC"
+						class="inputbox"
+						required="true"/>
+				<field
+						name="exclude_frontend"
+						type="list"
+						label="COM_PUNTOS_EXCLUDE_FRONTEND_CATEGORY_LABEL"
+						description="COM_PUNTOS_EXCLUDE_FRONTEND_CATEGORY_DESC"
+						default="0"
+						class="inputbox">
+						<option value="0">JNO</option>
+						<option value="1">JYES</option>
+				</field>
+
+			</fieldset>
+		</fields>
+
+	</fieldset>
+
+</form>

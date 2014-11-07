@@ -1,0 +1,45 @@
+#ccc_left {float: left; width: 50%; clear: both;}
+#ccc_left_inner {padding:20px; clear: both;}
+
+#ccc_right {float: left; width: 48%;}
+#ccc_right_inner {padding: 0 20px 20px 20px; }
+
+#ccc_promotion{padding: 20px; margin-top: 20px; clear: both;}
+
+.icon-48-controlcenter {
+    background: url('../../backend/images/dashboard-48px.png');
+}
+
+.cpanel div.icon a, #cpanel div.icon a {
+    -moz-transition-duration: 0.8s;
+    -moz-transition-property: background-position, -moz-border-radius-bottomleft, -moz-box-shadow;
+    background-color: #FFFFFF;
+    background-position: -30px center;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px 5px 5px 5px;
+    color: #565656;
+    display: block;
+    float: left;
+    height: 97px;
+    text-decoration: none;
+    vertical-align: middle;
+    width: 108px;
+}
+
+.cpanel div.icon a img,
+#cpanel div.icon a img{
+	display: block;
+	margin: auto;
+}
+
+.cpanel div.icon, #cpanel div.icon {
+    float: left;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    text-align: center;
+}
+
+#cpanel [class^="icon-"],
+#cpanel  [class*=" icon-"] {
+    width: auto;
+}

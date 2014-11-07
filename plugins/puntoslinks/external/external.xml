@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="puntoslinks" method="upgrade">
+	<name>plg_puntoslinks_external</name>
+	<author>edugeo.com</author>
+	<creationDate>2014-11-26</creationDate>
+	<copyright>Copyright (C) 2014. All rights reserved.</copyright>
+    <license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+	<authorEmail>javier@edugeo.com</authorEmail>
+	<authorUrl>https://edugeo.com</authorUrl>
+	<version>3.5.4</version>
+	<description>
+        plg_puntoslinks_external_DESC
+	</description>
+	<languages folder="administrator/language">
+        <language tag="en-GB">en-GB/en-GB.plg_puntoslinks_external.sys.ini</language>
+	</languages>
+	<files>
+        <file plugin="external">external.php</file>
+	</files>
+</extension>

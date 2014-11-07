@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module"
+        version="2.5"
+        client="administrator"
+        method="upgrade"
+        >
+    <name>mod_ccc_puntos_icons</name>
+    <author>edugeo.com</author>
+    <creationDate>2013-08-26</creationDate>
+    <copyright>Copyright (C) 2014 Wim Kamerbeek - edugeo.com. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <authorEmail>wimkamerbeek@edugeo.com</authorEmail>
+    <authorUrl>edugeo.com</authorUrl>
+    <version>3.5.4</version>
+    <description>MOD_CCC_PUNTOS_ICONS_XML_DESCRIPTION</description>
+    <files>
+        <file module="mod_ccc_puntos_icons">mod_ccc_puntos_icons.php</file>
+<folder>tmpl</folder>
+    </files>
+    <languages folder="administrator/language">
+
+<language tag="es-ES">es-ES/es-ES.mod_ccc_puntos_icons.ini</language>
+
+    </languages>
+    <config>
+
+    </config>
+</extension>
